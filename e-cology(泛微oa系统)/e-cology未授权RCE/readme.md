@@ -17,6 +17,15 @@
 
 http://www.liuhaihua.cn/archives/614038.html
 
+#### 其他
+
+其实我再测试这个漏洞之前，先是本地搭建了一个beanshell用于测试的，beanshell官方文档（https://beanshell.github.io/manual/bshmanual.html#Useful_BeanShell_Commands）
+有测试war包下载，搭建好过后其实和真实环境的界面一样，不过没有做关键字拦截，你可以执行任意命令，如下：
+
+![](assets/local.png)
+
+
+
 
 ### python poc
 
