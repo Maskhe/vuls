@@ -29,3 +29,5 @@ http://x.x.x.x/configuration.php
 
 ![](assets/shell.png)
 
+最开始在github上面放出来的那个poc，有个地方写错了，我对它进行了改正，并上传到了本目录下
+
