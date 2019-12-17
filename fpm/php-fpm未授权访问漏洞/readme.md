@@ -310,3 +310,9 @@ if __name__ == '__main__':
 形如：`http://xxx/index.php/test/123`,index.php才是真正的脚本文件，路径后面的都是传给它的参数。
 
 所以在开启了fix_pathinfo后，php-fpm在拿到`123.jpg/.php`这个路径后，发现这个文件不存在，就会去掉最后一个`/`后的内容，然后继续解析，直到某个文件存在，然后解析，这就导致了解析漏洞。
+
+而且这个漏洞是可以通过ssrf打的，结合gopher协议，可以构造任何tcp包，就可以攻击内网脆弱的php-fpm。参考：
+
+https://0verwatch.top/Gopher-fastcgi.html
+
+这位表哥提到的用nc抓包的方式，我之前从来没想过，都是用wireshark抓，但是他这里用nc抓包真的挺方便的。
