@@ -315,4 +315,7 @@ if __name__ == '__main__':
 
 https://0verwatch.top/Gopher-fastcgi.html
 
+长亭：https://blog.chaitin.cn/gopher-attack-surfaces/
+
+
 这位表哥提到的用nc抓包的方式，我之前从来没想过，都是用wireshark抓，但是他这里用nc抓包真的挺方便的。
